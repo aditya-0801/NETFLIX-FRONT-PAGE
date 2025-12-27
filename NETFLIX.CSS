@@ -1,0 +1,360 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-attachment: fixed;
+  }
+
+  body,
+  html {
+     background: black;
+     font-family: 'Bebas Neue', sans-serif;
+     display: block;
+     max-width: 100%;
+    }
+
+  .background-section {
+    background-image: url(../image/rt.jpg);
+    object-fit: cover;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    max-width: 100%;
+    height: 100vh;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .overlay a {
+    color: rgb(229, 9, 20);
+    font-size: 63px;
+    text-decoration: none;
+    position: absolute;
+    top: 23px;
+    left: 174px;
+    font-weight: bolder;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 0.2rem;
+    
+  }
+
+  .Language{
+    position: absolute;
+    top: 26px;
+    right: 250px;
+    line-height: 1.25rem;
+    padding-top: 0.375rem;
+    padding-right: calc(2.25rem + 0rem);
+    padding-bottom: 0.375rem;
+    padding-left: calc(0.625rem + 1rem + 0.5rem);
+    box-sizing: border-box;
+    }
+
+  .l{
+    background: black;
+    color: white;
+    font-size: 20px;
+  }
+
+  .button{
+    position: absolute;
+    top: 26px;
+    right: 181px;
+    font-size: 19px;
+    background: rgb(229, 9, 20);
+    color: white;
+    padding: 7px;
+  }
+    
+.buttons{
+   
+    font-size: 35px;
+    background: rgb(229, 9, 20);
+    color: white;
+    position: relative;
+    top: 186px;
+    right: 225px;
+    font-family: 'Bebas Neue', sans-serif;
+    padding: 7px;
+}
+
+.h{
+    position: relative;
+    left: 145px;
+}
+
+.h1{
+    color: rgb(255, 255, 255);;
+    font-size: 55px;
+    font-weight: 900;
+}
+
+.h2{
+    color: rgb(255, 255, 255);;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.h3{
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+}
+
+.b{
+    position: relative;
+    left: 880px;
+}
+
+.B2{
+    font-size: 3rem;
+     font-weight: 900;
+     color: white;
+     position: relative;
+     bottom: 350px;
+     left: 205px;
+    }
+
+.B4{
+    font-size: 2rem;
+    font-weight: 900;
+    color: white;
+    position: relative;
+    bottom: 350px;
+    left: 85px;
+   }
+
+.c{
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+    position: relative;
+    bottom: 400px;
+    left: 760px;
+}
+
+.c1{
+    font-size: 2rem;
+    font-weight: 900;
+    color: white;
+    position: relative;
+    bottom: 400px;
+    left: 760px;
+}
+
+.r{
+    font-size: 2rem;
+    font-weight: 900;
+    color: white;
+    position: relative;
+    top: 200px;
+    }
+
+.i{
+  position: relative;
+    right: 585px;
+}
+
+.img{
+  position: relative;
+    right: 34px;
+    bottom: 125px;
+    width: 462px;
+    height: 250px;
+}
+
+.k{
+  background-color: gray;
+  position: relative;;
+  bottom: 500px;
+}
+
+.but{
+  font-size: 35px;
+  background: rgb(229, 9, 20);
+  color: white;
+  border: 2px solid white;
+  padding: 7px;
+  position: relative;
+  left: 5px;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+footer{
+    padding: 80px 5% 70px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,auto));
+    gap:3.5rem;
+    background: black;
+    height: 750pxpx;
+    margin-top: 50px;
+   }
+
+  .footer-content{
+    position: relative;
+    bottom: 600px;
+  }
+
+  .footer-content h4{
+    color: #fff;
+    margin-bottom: 1.5rem;
+    font-size: 20px;
+   }
+
+.footer-content li{
+    margin-bottom: 16px;
+  }
+
+  .footer-content li a{
+    display: block;
+    color: #d6d6d6;
+    font-size: 15px;
+    font-weight: 400;
+    transition: all .40s ease;
+    }
+
+  .footer-content li a:hover{
+    transform: translateY(-3px) translateX(-5px);
+    color: #fff;
+  }
+  
+.footer-contents h4{
+    color: #fff;
+    margin-bottom: 1.5rem;
+    font-size: 20px;
+    }
+
+.footer-contents li{
+    margin-bottom: 16px;
+    position: relative;
+    top: 20px;
+    right: 500px;
+  }
+
+  .footer-contents li a{
+    display: block;
+    color: #d6d6d6;
+    font-size: 15px;
+    font-weight: 400;
+    transition: all .40s ease;
+    }
+
+  .footer-contents h4{
+    color: #fff;
+    margin-bottom: 1.5rem;
+    font-size: 20px;
+    }
+
+.footer-contents li{
+    margin-bottom: 16px;
+    position: relative;
+    top: 20px;
+    right: 500px;
+  }
+
+  .footer-contents li a{
+    display: block;
+    color: #d6d6d6;
+    font-size: 15px;
+    font-weight: 400;
+    transition: all .40s ease;
+    text-decoration: none;
+    }
+
+  .search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+    bottom: 120px;
+    }
+
+.search-box {
+    display: flex;
+    align-items: center;
+    border: 2px solid ;
+    border-radius: px;
+    padding: 10px;
+    width: 300px;
+    position: relative;
+    top: 301px;
+    right: 708px;
+    color: white;
+}
+
+.aa{
+  color: white;
+  margin: 181px;
+}
+
+
+.search-box input {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 5px;
+    border-radius: 25px;
+    font-size: 16px;
+    background: none;
+    color: white;
+}
+
+.search-box input {
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 5px;
+  border-radius: 25px;
+  font-size: 16px;
+  background: none;
+  font-size: 1rem;
+  font-weight: 400;
+  width: 100%;
+  color: rgb(255, 255, 255);}
+
+  .search-containe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+    bottom: 471px;
+    right: 133px;
+   }
+
+.search-bo {
+    display: flex;
+    align-items: center;
+    border: 2px solid ;
+    border-radius: px;
+    padding: 10px;
+    width: 300px;
+    color: white;
+}
+.search-bo input {
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 5px;
+  border-radius: 25px;
+  font-size: 16px;
+  background: none;
+  font-size: 1rem;
+  font-weight: 400;
+  width: 100%;
+  color: rgb(255, 255, 255);}
+
+
+  
+  
+
+
+  
+  
+
+
+  
